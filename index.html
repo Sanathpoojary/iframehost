@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Test Iframe Embed</title>
+
+    <!-- Add the CSP meta tag to allow iframe embeds from specific sites -->
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://allowed-site.com https://another-allowed-site.com;">
 </head>
 
 <body>
     <h2>Embedding a CSP-Protected Page</h2>
-    <iframe src="https://your-test-page.netlify.app" width="600" height="400"></iframe>
 </body>
 
 </html>
