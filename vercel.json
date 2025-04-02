@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "frame-ancestors 'self' https://allowed-site.com https://test.com https://www.google.com chrome-extension://wfxdesktopplayer/index.html"
+          "value": "frame-ancestors 'self' https://allowed-site.com https://test.com https://www.google.com chrome-extension://wfxdesktopplayer"
         }
       ]
     }
